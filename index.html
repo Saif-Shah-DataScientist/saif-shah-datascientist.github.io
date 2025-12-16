@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saifullah Khalid | Data Scientist & ML Engineer</title>
+    <title>Saif Shah | Data Scientist & ML Engineer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
     <nav class="navbar">
-        <div class="nav-brand">SK</div>
+        <div class="nav-brand">SS</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -28,288 +31,617 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-bg"></div>
+        <div class="hero-particles"></div>
         <div class="hero-content">
-            <h1>I'M <span class="highlight">Saifullah</span> Khalid.</h1>
-            <p class="hero-subtitle">Data Scientist & ML Engineer</p>
-            <a href="#portfolio" class="btn-primary">View My Work</a>
+            <div class="hero-badge animate-fade-in">
+                <span class="status-dot"></span>
+                Available for opportunities
+            </div>
+            <h1 class="animate-slide-up">
+                Hi, I'm <span class="gradient-text">Saif Shah</span>
+            </h1>
+            <h2 class="hero-title animate-slide-up delay-1">Data Scientist & ML Engineer</h2>
+            <p class="hero-description animate-slide-up delay-2">
+                Transforming complex data into actionable insights using Machine Learning, 
+                Deep Learning, and Statistical Analysis. Passionate about solving real-world 
+                problems with data-driven solutions.
+            </p>
+            <div class="hero-tech animate-slide-up delay-3">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Deep Learning</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Data Visualization</span>
+            </div>
+            <div class="hero-buttons animate-slide-up delay-4">
+                <a href="#projects" class="btn-primary">
+                    <span>View Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="resume.pdf" class="btn-secondary" download>
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+            <div class="hero-stats animate-slide-up delay-5">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span>+
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="3">0</span>+
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span>+
+                    <span class="stat-label">Certifications</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1 animate-float">
+                <i class="fab fa-python"></i>
+            </div>
+            <div class="floating-card card-2 animate-float delay-1">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="floating-card card-3 animate-float delay-2">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="floating-card card-4 animate-float delay-3">
+                <i class="fas fa-database"></i>
+            </div>
         </div>
         <div class="scroll-indicator">
-            <span></span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Passionate About Data</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image animate-on-scroll">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" alt="Saif Shah">
+                        <div class="image-border"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="badge-number">3+</span>
+                        <span class="badge-text">Years of Experience</span>
+                    </div>
+                </div>
+                <div class="about-text animate-on-scroll">
+                    <p class="lead">
+                        I'm a Data Scientist with a passion for uncovering insights hidden in data 
+                        and building intelligent systems that make a real impact.
+                    </p>
+                    <p>
+                        With expertise in Machine Learning, Deep Learning, and Statistical Analysis, 
+                        I specialize in developing end-to-end data solutions from data collection 
+                        to model deployment. I believe in the power of data to drive informed 
+                        decision-making and create value for businesses.
+                    </p>
+                    <p>
+                        When I'm not training models, you'll find me exploring new datasets, 
+                        contributing to open-source projects, or writing about data science topics.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>End-to-End ML Pipelines</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Data Visualization Expert</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Statistical Analysis</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Problem Solver</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="skills" class="skills-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-number">01</span>
-                <h2>PROFESSIONAL</h2>
-                <p class="section-subtitle">MY KNOWLEDGE LEVEL IN Data Science</p>
+                <span class="section-tag">My Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
             </div>
-            <div class="skills-container">
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">Data Analysis</span>
-                            <span class="skill-percent">75%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="75"></div>
-                        </div>
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-icon">
+                        <i class="fab fa-python"></i>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">Power Bi</span>
-                            <span class="skill-percent">70%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="70"></div>
-                        </div>
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">JavaScript</span>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">WIX</span>
-                            <span class="skill-percent">95%</span>
+                    <div class="skill-bar-container">
+                        <div class="skill-label">
+                            <span>Python</span>
+                            <span>95%</span>
                         </div>
                         <div class="skill-bar">
                             <div class="skill-progress" data-progress="95"></div>
                         </div>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">PHOTOSHOP</span>
-                            <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Keras</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label">
+                            <span>ML/DL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Plotly</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Power BI</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label">
+                            <span>Visualization</span>
+                            <span>85%</span>
                         </div>
                         <div class="skill-bar">
                             <div class="skill-progress" data-progress="85"></div>
                         </div>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">ILLUSTRATOR</span>
-                            <span class="skill-percent">80%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="80"></div>
-                        </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">JAVASCRIPT</span>
-                            <span class="skill-percent">85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-progress="85"></div>
-                        </div>
+                    <h3>Data Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-info">
-                            <span class="skill-name">HTML & CSS</span>
-                            <span class="skill-percent">80%</span>
+                    <div class="skill-bar-container">
+                        <div class="skill-label">
+                            <span>Data Engineering</span>
+                            <span>80%</span>
                         </div>
                         <div class="skill-bar">
                             <div class="skill-progress" data-progress="80"></div>
                         </div>
                     </div>
                 </div>
-                <div class="about-content">
-                    <div class="about-initial">R</div>
-                    <p>I'm a passionate UX/UI Designer and Web Developer with over 5 years of experience creating beautiful, user-centered digital experiences. I specialize in transforming complex problems into intuitive, elegant solutions that delight users and drive business results.</p>
-                    <a href="resume.pdf" class="btn-secondary" download>DOWNLOAD RESUME</a>
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Jupyter</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label">
+                            <span>Cloud/Tools</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <div class="category-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>NLP & AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">NLTK</span>
+                        <span class="skill-tag">SpaCy</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">LLMs</span>
+                    </div>
+                    <div class="skill-bar-container">
+                        <div class="skill-label">
+                            <span>NLP/AI</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio-section">
+    <section id="projects" class="projects-section">
         <div class="container">
             <div class="section-header light">
-                <span class="section-number">02</span>
-                <h2>PORTFOLIO</h2>
-                <p class="section-subtitle">MY LATEST WORK</p>
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">Showcasing my data science journey through real-world projects</p>
             </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=600&fit=crop" alt="Project 01">
-                        <div class="portfolio-overlay">
-                            <h3>Pearls-AQI-Predictor</h3>
-                            <p> / UI</p>
-                            <a href="https://appapppy-o2ketgfhtgurbtkxl3knkx.streamlit.app/"><i class="fas fa-arrow-right"></i></a>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Sales Prediction">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=600&fit=crop" alt="Project 02">
-                        <div class="portfolio-overlay">
-                            <h3>PROJECT 02</h3>
-                            <p>Mobile App / UX</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
                         </div>
+                        <h3>Sales Prediction Model</h3>
+                        <p>Built a regression model to predict sales with 94% accuracy using historical data and feature engineering techniques.</p>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop" alt="Project 03">
-                        <div class="portfolio-overlay">
-                            <h3>PROJECT 03</h3>
-                            <p>Branding / Identity</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop" alt="Sentiment Analysis">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-image">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=600&fit=crop" alt="Project 04">
-                        <div class="portfolio-overlay">
-                            <h3>PROJECT 04</h3>
-                            <p>Dashboard / Analytics</p>
-                            <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>NLP</span>
+                            <span>Deep Learning</span>
+                            <span>BERT</span>
                         </div>
+                        <h3>Sentiment Analysis Engine</h3>
+                        <p>Developed an NLP model using BERT transformers to analyze customer reviews with 92% accuracy.</p>
                     </div>
                 </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Data Visualization</span>
+                            <span>Tableau</span>
+                            <span>SQL</span>
+                        </div>
+                        <h3>Interactive Analytics Dashboard</h3>
+                        <p>Created an interactive dashboard for real-time business metrics tracking and KPI monitoring.</p>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop" alt="Image Classification">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Computer Vision</span>
+                            <span>CNN</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <h3>Image Classification System</h3>
+                        <p>Built a CNN-based image classifier using TensorFlow achieving 96% accuracy on custom dataset.</p>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop" alt="Stock Prediction">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Time Series</span>
+                            <span>LSTM</span>
+                            <span>Finance</span>
+                        </div>
+                        <h3>Stock Price Predictor</h3>
+                        <p>Developed an LSTM-based time series model for stock price prediction with backtesting framework.</p>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop" alt="Healthcare">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Healthcare</span>
+                            <span>Classification</span>
+                            <span>XGBoost</span>
+                        </div>
+                        <h3>Disease Prediction System</h3>
+                        <p>Built a classification model to predict disease risk factors using patient health records.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta animate-on-scroll">
+                <a href="https://github.com/saif-shah-datascientist" class="btn-primary" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>View All Projects on GitHub</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
     <section id="experience" class="experience-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-number">03</span>
-                <h2>EXPERIENCE</h2>
-                <p class="section-subtitle">MY PROFESSIONAL JOURNEY</p>
+                <span class="section-tag">Career Path</span>
+                <h2 class="section-title">Experience & Education</h2>
             </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - Present</div>
-                    <div class="timeline-content">
-                        <h3>HOP!</h3>
-                        <h4>Creative Design Lead</h4>
-                        <p>Leading the creative team in developing innovative design solutions for digital products. Overseeing the entire design process from concept to execution.</p>
+            <div class="experience-container">
+                <div class="experience-column">
+                    <h3 class="column-title"><i class="fas fa-briefcase"></i> Work Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item animate-on-scroll">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2022 - Present</span>
+                                <h4>Senior Data Scientist</h4>
+                                <span class="company">Tech Company</span>
+                                <p>Leading ML projects, building predictive models, and mentoring junior data scientists.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item animate-on-scroll">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2020 - 2022</span>
+                                <h4>Data Scientist</h4>
+                                <span class="company">Analytics Firm</span>
+                                <p>Developed ML pipelines, performed statistical analysis, and created data visualizations.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item animate-on-scroll">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2019 - 2020</span>
+                                <h4>Data Analyst</h4>
+                                <span class="company">Startup</span>
+                                <p>Analyzed business data, created reports, and built dashboards for stakeholders.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2020 - 2022</div>
-                    <div class="timeline-content">
-                        <h3>WISBOOM</h3>
-                        <h4>Associate Design Director</h4>
-                        <p>Managed a team of designers and collaborated with stakeholders to deliver high-quality design projects. Established design systems and best practices.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2018 - 2020</div>
-                    <div class="timeline-content">
-                        <h3>SNAP UP</h3>
-                        <h4>Director of Design</h4>
-                        <p>Directed the visual design strategy for the company's digital products. Led user research initiatives and implemented data-driven design decisions.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2016 - 2018</div>
-                    <div class="timeline-content">
-                        <h3>GDV</h3>
-                        <h4>UI/UX Designer</h4>
-                        <p>Designed intuitive user interfaces and conducted usability testing. Created wireframes, prototypes, and high-fidelity mockups for web and mobile applications.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2014 - 2016</div>
-                    <div class="timeline-content">
-                        <h3>BLUE APP</h3>
-                        <h4>UI/UX Designer</h4>
-                        <p>Developed user-centered design solutions for startup clients. Collaborated with development teams to ensure pixel-perfect implementation.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2012 - 2014</div>
-                    <div class="timeline-content">
-                        <h3>MARBLE</h3>
-                        <h4>UI Designer</h4>
-                        <p>Created visual designs for websites and mobile applications. Worked closely with clients to understand their needs and deliver tailored solutions.</p>
+                <div class="experience-column">
+                    <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item animate-on-scroll">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2017 - 2021</span>
+                                <h4>Bachelor's in Computer Science</h4>
+                                <span class="company">University Name</span>
+                                <p>Focus on Machine Learning, Statistics, and Data Structures.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item animate-on-scroll">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023</span>
+                                <h4>AWS Machine Learning Specialty</h4>
+                                <span class="company">Amazon Web Services</span>
+                                <p>Professional certification in ML on AWS cloud platform.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item animate-on-scroll">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2022</span>
+                                <h4>Deep Learning Specialization</h4>
+                                <span class="company">Coursera - Andrew Ng</span>
+                                <p>Comprehensive deep learning course covering CNNs, RNNs, and more.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="section-header light">
-                <span class="section-number">04</span>
-                <h2>CONTACT</h2>
-                <p class="section-subtitle">GET IN TOUCH WITH ME</p>
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-description">Have a project in mind? Let's discuss how I can help you.</p>
             </div>
             <div class="contact-container">
-                <div class="contact-info">
-                    <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
+                <div class="contact-info animate-on-scroll">
+                    <div class="info-card">
+                        <div class="info-icon">
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:info@mysite.com">saifshah0100@gmail.com</a>
                         </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <a href="tel:1-800-000-0000">+92 3166 369323</a>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:saif@example.com">saif@example.com</a>
                         </div>
-                        <div class="contact-item">
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Karachi, Pakistan</span>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <span>Your City, Country</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <a href="tel:+1234567890">+1 234 567 890</a>
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/saifullah-khalid-919770233/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com/saifshah06321?igsh=Y2V3eHpxb3F2Zmh2" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/share/17WXHaoR7K/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://github.com/Saif-Shah-DataScientist" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                      
+                        <a href="https://github.com/saif-shah-datascientist" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/your-handle" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://kaggle.com/your-profile" target="_blank" aria-label="Kaggle">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                        <a href="https://medium.com/@your-handle" target="_blank" aria-label="Medium">
+                            <i class="fab fa-medium"></i>
+                        </a>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form animate-on-scroll" id="contactForm">
                     <div class="form-row">
                         <div class="form-group">
-                            <input type="text" id="firstName" name="firstName" placeholder="First Name *" required>
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="John" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="lastName" name="lastName" placeholder="Last Name *" required>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Email *" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Phone">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Discussion">
                     </div>
                     <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
                     </div>
-                    <button type="submit" class="btn-primary">Send Message</button>
+                    <button type="submit" class="btn-primary full-width">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Robert Caro. All Rights Reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-logo">SS</span>
+                    <p>Data Scientist & ML Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Saif Shah. All Rights Reserved.</p>
+                <p>Built with passion for data</p>
+            </div>
         </div>
     </footer>
 
-    <script src="script.js" defer></script>
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
